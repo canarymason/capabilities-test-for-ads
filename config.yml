@@ -2,8 +2,8 @@
 ## Client Information
 #########################
 client:
-  name: Oxygen
-  homepage: oxyads.com
+  name: capabilities test for ads
+  homepage: capabilities-test-for-ads.com
 
 #########################
 ## Author Information
@@ -29,11 +29,12 @@ prototype:
 
 ## Main Navigation Sections
 sections:
-  Style Tile: ''
-  Content Strategy: content
-  Elements: elements
-  Components: components
-  Colors: colors
+  Ads: ''
+  # Style Tile: style_tile
+  # Content Strategy: content
+  # Elements: elements
+  # Components: components
+  # Colors: colors
 
 ## Style Tile Options
 styleTile:

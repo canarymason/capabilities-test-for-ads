@@ -63,3 +63,10 @@ $experimental-support-for-microsoft    : false !default;
 // LAYOUTS
 @import "layouts/layout";
 //////////////////////////////
+
+.pass {
+  @extend %status;
+}
+.fail {
+  @extend %error;
+}
