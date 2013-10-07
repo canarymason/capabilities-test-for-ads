@@ -8,7 +8,7 @@
   {{#markdown}}
 We need to determine if a device is “desktop”, or “not mobile” and therefor if we’re able to serve ad rails.
 
-Thie method tests for two aspects,
+This method tests for two aspects,
 
 1. the width of the browser. The weakness here is that a desktop user could have their browser set to a narrow width and not pass our test.
 2. the existence of the devicemotion api. Only “mobile” devices should implement this api. The weakness here is that some devices may not. In that case we would need to trust that they're too narrow to qualify for our ads.
