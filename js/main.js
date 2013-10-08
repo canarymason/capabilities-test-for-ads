@@ -36,6 +36,6 @@ if (devicemotion === false) {
     node.className = 'fail';
   }
 } else {
-  node.innerHTML = '<p>No Ad</p> <p>' + 'device either detects motion' + '</p>';
+  node.innerHTML = '<p>No Ad</p> <p>' + 'The device detects motion.' + '</p>';
   node.className = 'fail';
 }
