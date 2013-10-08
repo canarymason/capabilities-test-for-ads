@@ -4,7 +4,7 @@
 $black: #161616;
 $white: #fefefe;
 $gray: mix($black, $white);
-$cs-primary: #fdb252;
+$cs-primary: #3DB90D;
 
 //////////////////////////////
 // Color Stacks
@@ -66,9 +66,9 @@ $cs-border: $gray;
 //////////////////////////////
 // Status Colors
 //////////////////////////////
-$cs-status-status: nth($quaternary-tints, 6);
+$cs-status-status: nth($primary-tints, 4);
 $cs-status-warning: nth($secondary-tints, 2);
-$cs-status-error: nth($tertiary-shades, 2);
+$cs-status-error: nth($quaternary-shades, 2);
 
 //////////////////////////////
 // Component defaults

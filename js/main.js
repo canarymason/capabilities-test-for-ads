@@ -7,7 +7,10 @@ var devicemotion = Modernizr.devicemotion;
 if (width >= desktop_width) {
   console.log('“desktop” width');
   var node = document.getElementById('width-results');
-  node.innerHTML = '<p>' + '“desktop” width' + '</p>';
+  var html = '<p>' + '“desktop” width' + desktop_width + 'px</p>';
+  html += '<p>' + 'test width: ' + desktop_width + 'px</p>';
+  html += '<p>' + 'this width: ' + width + 'px</p>';
+  node.innerHTML = html;
   node.className = 'pass';
 } else {
   var node = document.getElementById('width-results');
